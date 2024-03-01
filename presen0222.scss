@@ -1,0 +1,257 @@
+//　変数
+$beige :#FFF7F1;
+$dark_beige: #EADBC8;
+$brown: #DAC0A3;
+$blue: #102C57;
+$light_blue: rgba(16, 44, 87, 0.8);
+$white: #fff;
+$orange: #FFE4C9;
+$red: #E78895;
+$green: rgb(190, 209, 207);
+$light_green: rgba(190, 209, 207, .8);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+input,textarea{
+  cursor: pointer;
+  display: block;
+  margin: 15px 0;
+  padding: 10px 5px;
+}
+
+a{
+  color: $blue;
+  cursor: pointer;
+  padding:15px 20px;
+  text-decoration: none;
+
+  &:hover{
+    color: $red;
+  }
+}
+
+// -------------------------------------
+//　コンポーネント
+// -------------------------------------
+
+.c-view{
+  background: $beige;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 $orange;
+  margin: 50px auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+.c-box{
+  margin: 50px 0;
+}
+
+.c-input{
+  margin: 20px auto;
+  padding: 10px 15px;
+  text-align: center;
+  width: 60%;
+
+  &--login{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 8px $orange;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.c-submit{
+  border:none;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 15px 20px;
+}
+
+.c-title {
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  &--sub {
+    border-left: 10px solid $red;
+    border-bottom: 1px dashed $orange;
+    padding-left: 15px;
+    margin-left: 5px;
+  }
+}
+
+.c-list{
+  &__item{
+    margin-bottom: 15px;
+  }
+}
+
+.c-link{
+  &--welcome{
+    background: $green;
+    border-radius: 5px;
+    box-shadow: 0 0 8px $light_green;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    width: 200px;
+
+    &:hover{
+      background: $light_green;
+    }
+  }
+}
+
+.c-header--common{
+  background: none;
+  border: none;
+  color: $blue;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.c-error{
+  color: $red;
+  text-align: center;
+}
+
+
+// -------------------------------------
+// プロジェクト
+// -------------------------------------
+
+.p-mypage{
+  height: 100vh;
+  margin: 0;
+  padding: 30px 20px;
+  width: 100%;
+
+  &__title{
+    margin: 100px 0;
+    text-align: center;
+  }
+
+  &__link{
+    background: $green;
+    border-radius: 5px;
+    box-shadow: 0 0 8px $light_green;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    width: 200px;
+
+    &:hover{
+      background: $light_green;
+    }
+  }
+}
+
+.p-user{
+  &__name{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+  }
+}
+
+.p-score{
+  margin: 50px 0;
+  text-align: center;
+
+  &__show{
+    font-size: 24px;
+  }
+}
+
+.p-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+}
+.p-login{
+  margin-bottom: 50px;
+
+  &__submit{
+    background: $green;
+    color: $white;
+    font-weight: bold;
+    margin-top: 50px;
+
+    &:hover{
+      background: $light_green;
+      color: #181818;
+    }
+  }
+}
+
+.p-quiz{
+
+  &__title{
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__answer{
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+    &:hover{
+      background: $green;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+}
+
+.p-logout{
+  &:hover{
+    color: $red;
+  }
+}
+
+
+.p-result{
+
+  &__title{
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  &--form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__input{
+      background: none;
+      border: none;
+      color: $blue;
+      font-size: 16px;
+      width: fit-content;
+
+      &:hover{
+        color: $red;
+      }
+    }
+  }
+}

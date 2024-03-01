@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+input, textarea {
+  cursor: pointer;
+  display: block;
+  margin: 15px 0;
+  padding: 10px 5px;
+}
+
+a {
+  color: #102C57;
+  cursor: pointer;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #E78895;
+}
+
+.c-view {
+  background: #FFF7F1;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 #FFE4C9;
+  margin: 50px auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+.c-box {
+  margin: 50px 0;
+}
+
+.c-input {
+  margin: 20px auto;
+  padding: 10px 15px;
+  text-align: center;
+  width: 60%;
+}
+.c-input--login {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #FFE4C9;
+  font-size: 16px;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.c-submit {
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 15px 20px;
+}
+
+.c-title {
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.c-title--sub {
+  border-left: 10px solid #E78895;
+  border-bottom: 1px dashed #FFE4C9;
+  padding-left: 15px;
+  margin-left: 5px;
+}
+
+.c-list__item {
+  margin-bottom: 15px;
+}
+
+.c-link--welcome {
+  background: rgb(190, 209, 207);
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(190, 209, 207, 0.8);
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  width: 200px;
+}
+.c-link--welcome:hover {
+  background: rgba(190, 209, 207, 0.8);
+}
+
+.c-header--common {
+  background: none;
+  border: none;
+  color: #102C57;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.c-error {
+  color: #E78895;
+  text-align: center;
+}
+
+.p-mypage {
+  height: 100vh;
+  margin: 0;
+  padding: 30px 20px;
+  width: 100%;
+}
+.p-mypage__title {
+  margin: 100px 0;
+  text-align: center;
+}
+.p-mypage__link {
+  background: rgb(190, 209, 207);
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(190, 209, 207, 0.8);
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  width: 200px;
+}
+.p-mypage__link:hover {
+  background: rgba(190, 209, 207, 0.8);
+}
+
+.p-user__name {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+}
+
+.p-score {
+  margin: 50px 0;
+  text-align: center;
+}
+.p-score__show {
+  font-size: 24px;
+}
+
+.p-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+}
+
+.p-login {
+  margin-bottom: 50px;
+}
+.p-login__submit {
+  background: rgb(190, 209, 207);
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.p-login__submit:hover {
+  background: rgba(190, 209, 207, 0.8);
+  color: #181818;
+}
+
+.p-quiz__title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.p-quiz__answer {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.p-quiz__answer:hover {
+  background: rgb(190, 209, 207);
+  color: #fff;
+  font-weight: bold;
+}
+
+.p-logout:hover {
+  color: #E78895;
+}
+
+.p-result__title {
+  text-align: center;
+  margin: 40px 0;
+}
+.p-result--form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.p-result--form__input {
+  background: none;
+  border: none;
+  color: #102C57;
+  font-size: 16px;
+  width: fit-content;
+}
+.p-result--form__input:hover {
+  color: #E78895;
+}
+
+/*# sourceMappingURL=presen0222.css.map */
